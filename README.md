@@ -1,11 +1,9 @@
 # Introduction 
   Create test environment with VMs - Windows Servers , one of them is a Domain Controller and the other are 
   member servers. Platform MS Azure.
-  Use for test environments , passwords are not encrypted!
-  
-  !! Parameters pls. add to terraform.tfvars file !!
-  
-  The Domain Controller is created first and then the member server is joined to the domain.
+  Use for test environments , passwords are not encrypted!  </br>
+ !! Parameters pls. add to terraform.tfvars file !! </br>
+  The Domain Controller is created first and then the member server is joined to the domain. </br>
   MK (C) Free for use! Part for AD-Forest code based on https://github.com/cfalta/activedirectory-lab?tab=BSD-3-Clause-1-ov-file - Copyright (c) 2021, Christoph Falta.
 
 # Version

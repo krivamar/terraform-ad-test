@@ -23,7 +23,7 @@
 | v0.97   | 17.06.2025 | Optimization - removed unused vars, commented in compute module           |
 | v0.98   | 25.06.2025 | Review                                                                    |
 | v0.99   | 26.06.2025 | Update credentials vars                                                   |
-| v1.00   | --.--.---- | Updated README                                                            |
+| v1.00   | 27.06.2025 | Updated README                                                            |
 
 
 # Warranty 

@@ -1,5 +1,5 @@
 # Introduction 
-  Create test environment with 3x VMs Windows Servers , one of them is a Domain Controller and the other are 
+  Create test environment with VMs - Windows Servers , one of them is a Domain Controller and the other are 
   member servers. Platform MS Azure.
   Use for test environments , passwords are not encrypted!
   !! Parameters pls. add to terraform.tfvars file !!

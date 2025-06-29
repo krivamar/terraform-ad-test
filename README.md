@@ -2,22 +2,28 @@
   Create test environment with VMs - Windows Servers , one of them is a Domain Controller and the other are 
   member servers. Platform MS Azure.
   Use for test environments , passwords are not encrypted!
+  
   !! Parameters pls. add to terraform.tfvars file !!
+  
   The Domain Controller is created first and then the member server is joined to the domain.
   MK (C) Free for use! Part for AD-Forest code based on https://github.com/cfalta/activedirectory-lab?tab=BSD-3-Clause-1-ov-file - Copyright (c) 2021, Christoph Falta.
 
 # Version
-  v0.9 - 04.05 2025 Create script
-  v0.91 - 05.05 2025 Added vars and dependecy
-  v0.92 - 09.05 2025 Modify time sleep
-  v0.93 - 10.05 2025 Added domain join for VM2
-  v0.94 - 10.05 2025 Update sctructure and vars.
-  v0.95 - 19.05 2025 Created modules for network, compute and activedirectory
-  v0.96 - 16.06 2025 Added variables for compute module, added count_vm variable to create more VMs, added vm_ids output to compute module.
-  v0.97 - 17.06 2025 Optimalization - removed unused vars. comented in compute module.  # dc_vm_id = module.compute.dc_vm_id
-  v0.98 - 25.06 2025 Review
-  v0.99 - 26.06 2025 update credentials vars
-  v1.00 - Updated readme
+## Version History
+
+| Version | Date       | Description                                                                 |
+|---------|------------|-----------------------------------------------------------------------------|
+| v0.9    | 04.05.2025 | Create script                                                              |
+| v0.91   | 05.05.2025 | Added vars and dependency                                                  |
+| v0.92   | 09.05.2025 | Modify time sleep                                                         |
+| v0.93   | 10.05.2025 | Added domain join for VM2                                                 |
+| v0.94   | 10.05.2025 | Update structure and vars                                                 |
+| v0.95   | 19.05.2025 | Created modules for network, compute, and Active Directory                |
+| v0.96   | 16.06.2025 | Added variables for compute module, count_vm variable, and vm_ids output  |
+| v0.97   | 17.06.2025 | Optimization - removed unused vars, commented in compute module           |
+| v0.98   | 25.06.2025 | Review                                                                    |
+| v0.99   | 26.06.2025 | Update credentials vars                                                   |
+| v1.00   | --.--.---- | Updated README                                                            |
 
 
 # Warranty 

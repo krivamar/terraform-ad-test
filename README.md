@@ -31,6 +31,29 @@ Creator is not responsible aboout issues and damges caused by run this code or m
 1. Azure Subscription
 2. Terraform - https://developer.hashicorp.com/terraform/install
 3. Recommended - Visual Studio Code
+4. Create config file "provider.tf" or update maint.tf </b>
+
+Provider tf </b>
+terraform {
+  required_providers {
+    azurerm = {
+      source = "hashicorp/azurerm"
+      version = "~> 4.22.0" # Specify the version you want to use
+    }
+   }
+     required_version = ">= 1.5.7" # Specify the Terraform version you want to use
+}
+ provider "azurerm" {
+  features {}
+  subscription_id = "your subscription"
+}
+
+</b>
+https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build
+
+
+
+
 
 
 # Build and Test

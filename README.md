@@ -45,9 +45,8 @@ terraform {
 }
  provider "azurerm" {
   features {}
-  subscription_id = "your subscription"
+  subscription_id = "your subscription id"
 }
-
 </br>
 https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build
 

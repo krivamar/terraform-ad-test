@@ -31,9 +31,9 @@ Creator is not responsible aboout issues and damges caused by run this code or m
 1. Azure Subscription
 2. Terraform - https://developer.hashicorp.com/terraform/install
 3. Recommended - Visual Studio Code
-4. Create config file "provider.tf" or update maint.tf </b>
+4. Create config file "provider.tf" or update maint.tf </br>
 
-Provider tf </b>
+Provider.tf example: </br>
 terraform {
   required_providers {
     azurerm = {
@@ -48,7 +48,7 @@ terraform {
   subscription_id = "your subscription"
 }
 
-</b>
+</br>
 https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build
 
 
